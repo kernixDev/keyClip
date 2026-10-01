@@ -4,9 +4,10 @@ it currently supports 3 shortcuts; ctrl+f1 which transforms your selected text i
 
 # 🛠 Installation
 in order to setup keyclip, please execute this line in your command prompt  
-```git clone https://github.com/kernixdev/keyclip```  
-then, execute this line in order to install the python **requirements** needed for this script  
-```pip install -r requirements.txt```  
+```bash git clone https://github.com/kernixdev/keyClip
+cd keyClip
+pip install -r requirements.txt```  
+  
 if you want keyclip to run at every startup, follow the next guide  
 
 # ⚙️ adding keyclip to startup
