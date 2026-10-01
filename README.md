@@ -4,7 +4,8 @@ it currently supports 3 shortcuts; ctrl+f1 which transforms your selected text i
 
 # 🛠 Installation
 in order to setup keyclip, please execute this line in your command prompt  
-```bash git clone https://github.com/kernixdev/keyClip
+```bash 
+git clone https://github.com/kernixdev/keyClip
 cd keyClip
 pip install -r requirements.txt```  
   
