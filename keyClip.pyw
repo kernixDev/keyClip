@@ -4,6 +4,9 @@ import keyboard
 
 def upperCase():
     try:
+        win32clipboard.OpenClipboard()
+        win32clipboard.EmptyClipboard()
+        win32clipboard.CloseClipboard()
         pyautogui.hotkey("ctrl", "c")
 
         win32clipboard.OpenClipboard()
@@ -19,6 +22,9 @@ def upperCase():
 
 def lowerCase():
     try:
+        win32clipboard.OpenClipboard()
+        win32clipboard.EmptyClipboard()
+        win32clipboard.CloseClipboard()
         pyautogui.hotkey("ctrl", "c")
 
         win32clipboard.OpenClipboard()
@@ -34,6 +40,9 @@ def lowerCase():
 
 def camelCase():
     try:
+        win32clipboard.OpenClipboard()
+        win32clipboard.EmptyClipboard()
+        win32clipboard.CloseClipboard()
         pyautogui.hotkey("ctrl", "c")
 
         win32clipboard.OpenClipboard()
