@@ -7,7 +7,8 @@ in order to setup keyclip, please execute this line in your command prompt
 ```bash 
 git clone https://github.com/kernixdev/keyClip
 cd keyClip
-pip install -r requirements.txt```  
+pip install -r requirements.txt
+```  
   
 if you want keyclip to run at every startup, follow the next guide  
 
