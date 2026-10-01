@@ -1,15 +1,18 @@
-# keyclip's usage
+# 💡 keyclip's usage
 keyclip is a short script used to add custom shortcuts into your windows 10/11 environment  
 it currently supports 3 shortcuts; ctrl+f1 which transforms your selected text into uppercase, ctrl+f2 which transforms your selected text into (you guessed it) lowercase and ctrl+f3 which transforms your selected text into camelcase.
 
-# setting up keyclip
+# 🛠 Installation
 in order to setup keyclip, please execute this line in your command prompt  
-```git clone https://github.com/kernixdev/keyclip```  
-then, execute this line in order to install the python **requirements** needed for this script  
-```pip install -r requirements.txt```  
+```bash 
+git clone https://github.com/kernixdev/keyClip
+cd keyClip
+pip install -r requirements.txt
+```  
+  
 if you want keyclip to run at every startup, follow the next guide  
 
-# adding keyclip to startup
+# ⚙️ adding keyclip to startup
 firstly, you will need to create a shortcut leading to the keyclip.pyw file  
 to do so, you can go into the folder where keyclip is located and right click the background  
 click "new" then "shortcut"  
